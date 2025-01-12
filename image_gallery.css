@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(images/nature.jpg);
+    background-color: #f7f7f7;
+}
+
+header, footer {
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#image_list {
+    list-style: none;
+    text-align: center;
+}
+
+#image_list li {
+    display: inline-block;
+    margin: 5px;
+}
+
+#image_list li a {
+    display: block;
+    padding: 10px 20px;
+    background-color: #26bb6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#image_list li a:hover {
+    background-color: #333;
+}
+
+.image-container {
+    text-align: center;
+}
+
+#gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    margin-top: 20px;
+}
